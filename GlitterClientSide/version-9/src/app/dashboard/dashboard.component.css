@@ -1,0 +1,27 @@
+.btn-logout{
+    cursor: pointer;    
+}
+
+.user-options{    
+    position: fixed;
+    left: 29%;
+    border-radius:50px;     
+    width: 100%;
+}
+
+.user-options ul{
+    background: darkgrey;    
+    border-radius: 15px;    
+}
+
+.user-options ul li{
+    color: black;
+}
+.user-options ul li a{
+    color:white;
+}
+.welcome-user{
+    margin-top: 60px;
+    position: fixed;
+    right:20px;
+}

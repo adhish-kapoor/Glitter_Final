@@ -1,0 +1,13 @@
+<div class="search-section">
+  <input type="text" class="form-control" placeholder="Search Here" [(ngModel)]="searchText">
+  <br>
+  <input class="btn btn-search" type="button" value="Search" (click)="doSearch()">
+</div>
+
+<ul class="nav-search">
+    <li class="nav-search-item"><a routerLink="people">People</a></li>
+    <li class="nav-search-item"><a routerLink="post">Post</a></li>
+  </ul>  
+<hr>
+
+<router-outlet></router-outlet>
